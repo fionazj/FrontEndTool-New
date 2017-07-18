@@ -69,7 +69,7 @@
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>findbugs-maven-plugin</artifactId>
-				<version>2.5.1</version>
+				<version>3.0.1</version>
 				<configuration>
 					<threshold>High</threshold>
 					<effort>Default</effort>
@@ -77,6 +77,8 @@
 					<findbugsXmlOutputDirectory>target/site</findbugsXmlOutputDirectory>
 				</configuration>
 			</plugin>
+			
+			
 		</plugins>
 	</build>
 	<dependencies>
